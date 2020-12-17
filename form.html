@@ -7,23 +7,55 @@
 </head>
 <body>
     <form action="list.html" method="POST" name="表单">
-        用户名：<input type="text" value="请输入用户名" maxlength="20"><br>
-        密码：<input type="password" ><br>
-        性别: <input id="man" name="sex" value="man" type="radio" >  <label for="man">男</label>
-         <input name="sex" value="women" id="women" type="radio"><label for="women">女</label><br>
-        爱好: 篮球  <input name="hobby" type="checkbox" value="basketball" checked = "checked">
-         足球 <input name="hobby" type="checkbox" value="football">
-         橄榄球<input type="checkbox" name="hobby" value="ganlanqiu"><br>
-        手机号： <input type="text"><br>
-        <input type="button" value="获取短信验证码"><br>
-       文件： <input type="file"><br>
-       申请类型：<select name="apply" id="apply" >
-           <option value="geren">个人</option>
-           <option  selected= "selected" value="qiye">企业</option>
-       </select><br>
-       备注：<textarea name="rowmark" id="" cols="30" rows="3">备注</textarea><br>
-         <input type="submit" value="免费注册"><br>
-         <input type="reset" value="重新填写">
+        <table border="1px">
+            <tr>
+                <td>用户名：</td>
+                <td><input type="text" value="请输入用户名" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td> 密码：</td>
+                <td><input type="password" ></td>
+            </tr>
+            <tr>
+                <td>性别: </td>
+                <td><input id="man" name="sex" value="man" type="radio" >  <label for="man">男</label>
+                    <input name="sex" value="women" id="women" type="radio"><label for="women">女</label></td>
+            </tr>
+            <tr>
+                <td>爱好:</td>
+                <td>篮球  <input name="hobby" type="checkbox" value="basketball" checked = "checked">
+                    足球 <input name="hobby" type="checkbox" value="football">
+                    橄榄球<input type="checkbox" name="hobby" value="ganlanqiu"></td>
+            </tr>
+            <tr>
+                <td>手机号：</td>
+                <td><input type="text"><br><input type="button" value="获取短信验证码"><br></td>
+            </tr>
+            <tr>
+                <td>    文件：</td>
+                <td><input type="file" ><br></td>
+            </tr>
+            <tr>
+                <td> 申请类型：</td>
+                <td><select name="apply" id="apply" >
+                    <option value="geren">个人</option>
+                    <option  selected= "selected" value="qiye">企业</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>备注：</td>
+                <td><textarea name="rowmark" id="" cols="30" rows="3">备注</textarea><br></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="免费注册"><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="reset" value="重新填写"></td>
+            </tr>
+        </table>
+
     </form>
 </body>
 </html>

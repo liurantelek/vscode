@@ -1,0 +1,57 @@
+div {
+    text-decoration:palegoldenrod;
+}
+body {
+    font-size: 16px;
+}
+/* 按照 link vistited hover active顺序写 */
+a:link{
+    /* 未被访问的 */
+    text-decoration: none;
+    color: black;
+    
+}
+a:visited {
+    /* 访问过的 */
+    color: rgb(114, 175, 0);
+    font-size: 22px;
+}
+a:hover {
+    /* 选择鼠标经过的连接 */
+    color: rgb(183, 43, 226);
+    font-size: 18px;
+    text-decoration: underline;
+}
+a:active {
+    /* 选择得是鼠标再按下还没弹起弹起鼠标的 */
+    color: aqua;
+}
+
+
+input:focus {
+    border-color: blue;
+}
+
+p {
+    /* 字符缩进 1em就是一个文字大小，一般是16px*/
+    text-indent: 2em;
+    /* 行间距 上间距+下边距+文本的高度*/
+    line-height: 26px;
+
+}
+
+
+ .red, .green {
+            width: 100%;
+            height: 100px;
+            font-size: 30px;
+            font-weight: 200;
+            font-style:italic;
+        }
+        .red {
+            color: blueviolet;
+            background-color: aqua;
+        }
+        .green {
+            background-color: gray;
+        }

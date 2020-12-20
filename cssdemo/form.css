@@ -1,0 +1,39 @@
+
+body {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.tb {
+    background-color: blueviolet;
+    border: 1px;
+    border-block-color: #ffffff;
+}
+
+.rtb {
+    text-align: right;
+}
+input:focus {
+    border-color: brown;
+    background-color: aqua;
+}
+/* input {
+    width: 200px;
+} */
+
+a {
+    /* 行内元素转为块级元素 每个块级元素独占一行 */
+    display: block;
+}
+div {
+    /* 块级元素转换为行内元素 */
+    display: inline;
+    /* 行内块
+     */
+     display: inline-block;
+}
+
+
+
+

@@ -4,46 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../cssdemo/form.css">
 </head>
 <body>
+    <h3>this is a table</h3>
+    <div id="dtb" class="dtb">
+   
     <form action="list.html" method="POST" name="表单">
-        <table border="1px">
+        <table  id="tb" class="tb">
             <tr>
-                <td>用户名：</td>
+                <td class="rtb">用户名：</td>
                 <td><input type="text" value="请输入用户名" maxlength="20"></td>
             </tr>
             <tr>
-                <td> 密码：</td>
+                <td class="rtb"> 密码：</td>
                 <td><input type="password" ></td>
             </tr>
             <tr>
-                <td>性别: </td>
+                <td class="rtb">性别: </td>
                 <td><input id="man" name="sex" value="man" type="radio" >  <label for="man">男</label>
                     <input name="sex" value="women" id="women" type="radio"><label for="women">女</label></td>
             </tr>
             <tr>
-                <td>爱好:</td>
+                <td class="rtb">爱好:</td>
                 <td>篮球  <input name="hobby" type="checkbox" value="basketball" checked = "checked">
                     足球 <input name="hobby" type="checkbox" value="football">
                     橄榄球<input type="checkbox" name="hobby" value="ganlanqiu"></td>
             </tr>
             <tr>
-                <td>手机号：</td>
-                <td><input type="text"><br><input type="button" value="获取短信验证码"><br></td>
+                <td class="rtb">手机号：</td>
+                <td><input type="text"><input type="button" value="获取短信验证码"><br></td>
             </tr>
             <tr>
-                <td>    文件：</td>
+                <td class="rtb">    文件：</td>
                 <td><input type="file" ><br></td>
             </tr>
             <tr>
-                <td> 申请类型：</td>
+                <td class="rtb"> 申请类型：</td>
                 <td><select name="apply" id="apply" >
                     <option value="geren">个人</option>
                     <option  selected= "selected" value="qiye">企业</option>
                 </select></td>
             </tr>
             <tr>
-                <td>备注：</td>
+                <td class="rtb">备注：</td>
                 <td><textarea name="rowmark" id="" cols="30" rows="3">备注</textarea><br></td>
             </tr>
             <tr>
@@ -72,5 +76,7 @@
         </table>
 
     </form>
+         
+</div>
 </body>
 </html>

@@ -3,7 +3,17 @@ body {
     font-size: 16px;
     line-height: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(73, 226, 43);
+    background-image: url(../picture/a.jpg);
 
+}
+.img {
+    background-image: url('../picture/a.jpg');
+    background-color: blue;
+    background-position: center;
+    background-position: center top;
+    width: 200px;
+    height: 500px;
 }
 .tb {
     background-color: blueviolet;

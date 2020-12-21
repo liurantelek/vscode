@@ -1,0 +1,27 @@
+.top {
+    width: 110px;
+    height: 40px;
+    background-color: pink;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    /* background-image: url(../picture/s.png); */
+    /* background-repeat: no-repeat;
+    background-position: left center; */
+    text-indent: 1.5em;
+     /* 背景颜色的半透明
+     */
+     background:rgba(red, green, rgb(60, 255, 0), 0.3);
+}
+body {
+    background-image: url(../picture/b.jpeg);
+    background-repeat: no-repeat;
+    background-position: center 40px;
+    background-size: 100%;
+    /* 固定背景图像 */
+    background-attachment: fixed;
+    /* background:  背景颜色 背景图片 地址 背景平铺 背景图像滚动 背景图片位置; */
+
+   
+    
+}

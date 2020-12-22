@@ -4,7 +4,19 @@
 }
 
 body {
-    background:#bfbfbf;
+    background: #e9e2e2;;
+}
+
+.clearfix:before ,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+.clearfix {
+    *zoom :1;
 }
 
 .w {
@@ -117,7 +129,7 @@ a {
 }
 
 .subnav ul li {
-    height: 42px;
+    height: 45px;
     line-height: 45px;
     padding: 0 20px;
 }
@@ -217,3 +229,83 @@ a {
      color: #00a4ff;
 
  }
+ .mod a {
+    color: #00a4ff;
+ }
+ .mod:hover {
+     color: rgb(60, 204, 17);
+ }
+
+ input:focus {
+    border-color: brown;
+    background-color: blueviolet;
+}
+.box {
+    margin-top: 30px;
+}
+.box-hd{
+    height: 45px;
+    margin-right: 30px;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.box-hd a {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.box-bd ul{
+    width: 1225px;
+}
+
+.box-bd ul li{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 270px;
+    background: url(../images/course.png) no-repeat top center;
+}
+
+.footer {
+    height: 415px;
+    background-color: #fff;
+}
+
+.footer .w {
+    margin-top: 35px;
+}
+
+.footer .copyright {
+    float: left;
+}
+.footer .copyright p{
+    font-size: 18px;
+    color: rgb(14, 15, 15);
+    margin: 20xp 0 15px 0;
+    }
+    .footer .copyright .app {
+        display: block;
+        width: 118px;
+        height: 33px;
+        border: 1px solid #00a4ff;
+        text-align: center;
+        line-height: 33px;
+    }
+.footer .links {
+    float: right;
+}
+.links dl dt {
+    font-size: 16px;
+    color: black;
+}
+
+.links dl {
+    float: right;
+    margin-right: 20px;
+}

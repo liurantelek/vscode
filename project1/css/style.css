@@ -278,6 +278,8 @@ a {
     top: 4px;
     right: -4px;
     width: 20px;
+    /* 只有定位的盒子才有定位 */
+    z-index: auto;
 }
 
 .footer {
@@ -316,4 +318,5 @@ a {
 .links dl {
     float: right;
     margin-right: 20px;
+    
 }

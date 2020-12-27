@@ -1,6 +1,8 @@
 * {
     margin:0;
     padding: 0;
+    /* 盒子的大小就不会变了 */
+    box-sizing: content-box;
 }
 
 body {
@@ -118,11 +120,15 @@ a {
 }
 
 .banner .w {
+    /* 让图像变模糊 */
+    /* filter: blur(5px); */
     height: 421px;
     background: url(../images/banner2.png) no-repeat top center;
 }
 .subnav {
     float: left;
+    /* calc函数计算 */
+    /* width: calc(150px+40px); */
     width: 190px;
     height: 421px;
     background-color: rgba(0,0,0, 0.3);

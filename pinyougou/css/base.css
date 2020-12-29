@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+      /* 盒子的大小就不会变了 */
+      box-sizing: border-box;
+}
+
+em,
+i   {
+    font-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0px;
+    vertical-align: middle;
+}
+
+.clearfix::before,.clearfix::after {
+    content: '';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input {
+    font-family: Microsoft YaHei,Heiti SC ,tahoma,arial;
+    /* 默认有灰色边框去掉 */
+    border: 0px;
+    outline: none;
+}
